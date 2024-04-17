@@ -20,22 +20,22 @@ const SocialMediaList = () => {
           </motion.div>
         </IconContainerMotion>
       </a>
-      <a href='https://web.facebook.com/charisman.afriandi' target='_blank' rel='noreferrer'>
+      {/* <a href='https://web.facebook.com/charisman.afriandi' target='_blank' rel='noreferrer'>
         <IconContainerMotion initial='inactive' animate='inactive' whileHover='active'>
           <Icon.Facebook size={30} />
           <motion.div layout transition={{type: 'tween'}} variants={(iconTextVariant as any)}>
             <Text css={{marginLeft: '10px'}}>Facebook</Text>
           </motion.div>
         </IconContainerMotion>
-      </a>
-      <a href='https://www.instagram.com/risman.afriand' target='_blank' rel='noreferrer'>
+      </a> */}
+      {/* <a href='https://www.instagram.com/risman.afriand' target='_blank' rel='noreferrer'>
         <IconContainerMotion initial='inactive' animate='inactive' whileHover='active'>
           <Icon.Instagram size={30}/>
           <motion.div layout transition={{type: 'tween'}} variants={(iconTextVariant as any)}>
             <Text css={{marginLeft: '10px'}}>Instagram</Text>
           </motion.div>
         </IconContainerMotion>
-      </a>
+      </a> */}
       <a href='https://www.linkedin.com/in/charisman-afriandi-373960209/' target='_blank' rel='noreferrer'>
         <IconContainerMotion initial='inactive' animate='inactive' whileHover='active'>
           <Icon.Linkedin size={30}/>

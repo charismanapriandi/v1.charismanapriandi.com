@@ -140,11 +140,11 @@ export default function About() {
               <div css={{ marginTop: "20px" }}>
                 {/* <Link css={{width: 'fit-content'}} href='https://drive.google.com/file/d/1qnyWVCA7qJN9MdJuCjwvGznlNcXutwLZ/view?usp=sharing' passHref> */}
                 <a
-                  href="/cv-13nov2023.pdf"
+                  href="/cv-18apr2024.pdf"
                   css={{ width: "fit-content" }}
                   target="_blank"
                   rel="noreferrer"
-                  download="cv-charismanarpaindi-13_november_2023"
+                  download="CV - Charisman Apriandi - 18 April 2024"
                 >
                   <Button>
                     <Icon.Download

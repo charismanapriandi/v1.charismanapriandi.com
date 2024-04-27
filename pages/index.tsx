@@ -50,7 +50,7 @@ const Home: NextPage = () => {
             animate={{ opacity: 1, y: "0rem" }}
           >
             <Text textAlign="center" css={{ marginBottom: 15 }}>
-              Hi, i&lsquo;m Charisman Apriandi
+              Hi, i&lsquo;m Risman
             </Text>
           </motion.div>
           <motion.div

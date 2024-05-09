@@ -3,5 +3,3 @@ node_modules
 
 # ENV 
 .env.local
-.env.development
-.env.production

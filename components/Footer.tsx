@@ -13,11 +13,22 @@ const Footer = () => {
         <Text as='div' css={copyrightCss} size='small'>
           &copy; 2023 Charisman Apriandi
           <div css={dotCss} />
-          <Link href='https://github.com/charismanapriandi/charismanapriandi.com' passHref>
-            <Anchor target='_blank' rel='noreferrer'>
+          <Link 
+            css={(theme) => ({
+            ':hover': {
+              color: theme.palette.text.highlight,
+              [`${GithubIcon}`]: {
+                color: theme.palette.text.highlight
+              }
+            }
+          })} 
+          href='https://github.com/charismanapriandi/charismanapriandi.com' 
+            passHref
+            target="_blank"
+            rel='noreferrer'
+            >
               This site is available on
               <GithubIcon css={{marginLeft: '10px'}} size={20} />
-            </Anchor>
           </Link>
         </Text>
       </Container.Default>
@@ -65,15 +76,6 @@ const dotCss = (theme: Theme) => css({
 
 const GithubIcon = styled(Icon.Github)(({theme}) => ({
   color: theme.palette.text.secondary,
-}))
-
-const Anchor = styled.a(({theme}) => ({
-  ':hover': {
-    color: theme.palette.text.highlight,
-    [`${GithubIcon}`]: {
-      color: theme.palette.text.highlight
-    }
-  }
 }))
 
 export default memo(Footer);

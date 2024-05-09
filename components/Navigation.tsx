@@ -60,8 +60,7 @@ export default function Navigation() {
             }
 
             return (
-              <Link key={x} href={i.href} passHref>
-                <a>
+              <Link key={x} href={i.href}>
                   <Text
                     size="small"
                     color={active ? "primary" : "secondary"}
@@ -73,7 +72,6 @@ export default function Navigation() {
                   >
                     {i.label}
                   </Text>
-                </a>
               </Link>
             );
           })}

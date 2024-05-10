@@ -9,8 +9,6 @@ import Script from "next/script";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 
 function App(props: AppProps) {
-  console.log(process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID)
-  
   return (
     <>
       <Script

@@ -4,7 +4,7 @@ import { useTheme } from "@emotion/react";
 import Text from "components/Text";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 const links = [
@@ -50,6 +50,7 @@ export default function Navigation() {
             if (i.disabled) {
               return (
                 <Text
+                  key={x}
                   size="small"
                   color="disabled"
                   css={[itemCss, active && itemActiveCss]}
@@ -60,19 +61,21 @@ export default function Navigation() {
             }
 
             return (
-              <Link key={x} href={i.href}>
-                  <Text
-                    size="small"
-                    color={active ? "primary" : "secondary"}
-                    css={[
-                      itemCss,
-                      active && itemActiveCss,
-                      { cursor: "pointer" },
-                    ]}
-                  >
-                    {i.label}
-                  </Text>
-              </Link>
+              <Fragment key={i.href}>
+                <Link href={i.href}>
+                    <Text
+                      size="small"
+                      color={active ? "primary" : "secondary"}
+                      css={[
+                        itemCss,
+                        active && itemActiveCss,
+                        { cursor: "pointer" },
+                      ]}
+                    >
+                      {i.label}
+                    </Text>
+                </Link>
+              </Fragment>
             );
           })}
         </div>

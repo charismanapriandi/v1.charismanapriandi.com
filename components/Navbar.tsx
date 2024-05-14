@@ -31,7 +31,7 @@ const Navbar: FC<any> = () => {
         <Container.Large css={{ pointerEvents: "none" }}>
           <Row alignItems="center" justifyContent="flex-end">
             <div css={menuWrapperCss} ref={menuRef}>
-              <button
+              {/* <button
                 css={(theme) => ({
                   width: "34px",
                   height: "34px",
@@ -46,8 +46,8 @@ const Navbar: FC<any> = () => {
                 })}
               >
                 <Sun size={24} color={theme.palette.text.primary} />
-                {/* <Moon size={24} /> */}
-              </button>
+                <Moon size={24} />
+              </button> */}
               {/* <Icon.Menu css={{
                 padding: '5px', 
                 transition: 'all .3s ease-in-out',

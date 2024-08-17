@@ -36,7 +36,7 @@ const SocialMediaList = () => {
           </motion.div>
         </IconContainerMotion>
       </a> */}
-      <a href='https://www.linkedin.com/in/charisman-afriandi-373960209/' target='_blank' rel='noreferrer'>
+      <a href='https://www.linkedin.com/in/rismanaf/' target='_blank' rel='noreferrer'>
         <IconContainerMotion initial='inactive' animate='inactive' whileHover='active'>
           <Icon.Linkedin size={30}/>
           <motion.div layout transition={{type: 'tween'}} variants={(iconTextVariant as any)}>

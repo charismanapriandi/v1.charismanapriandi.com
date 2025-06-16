@@ -129,6 +129,11 @@
       "name": "MongoDB",
       "logo": "/mongodb.png",
       "url": "https://www.mongodb.com/"
+    },
+    {
+      "name": "GraphQL",
+      "logo": "/graphql.png",
+      "url": "https://graphql.org/"
     }
   ],
   "Applications": [

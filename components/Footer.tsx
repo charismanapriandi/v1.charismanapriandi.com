@@ -22,7 +22,7 @@ const Footer = () => {
               }
             }
           })} 
-          href='https://github.com/charismanapriandi/charismanapriandi.com' 
+            href='https://github.com/charismanapriandi/charismanapriandi.com' 
             passHref
             target="_blank"
             rel='noreferrer'

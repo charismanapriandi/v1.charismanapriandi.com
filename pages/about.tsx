@@ -33,7 +33,7 @@ export default function About() {
             css={{
               fontSize: "clamp(24px, 8vw, 36px)",
               fontWeight: 900,
-              marginBottom: 20,
+              marginBottom: 14,
               textAlign: "center",
             }}
           >
@@ -44,28 +44,25 @@ export default function About() {
                 WebkitTextFillColor: "transparent",
               })}
             >
-              Front-End Developer
-            </span>{" "}
-            <br />
-            <span
+              Full-Stack Web & Mobile Developer
+            </span>
+            {/* <br /> */}
+            {/* <span
               css={({ palette: { text, background } }) => ({
                 background: `-webkit-linear-gradient(${text.primary} 45%, ${background.primary})`,
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
               })}
             >
-              Building Beautiful and User-Friendly Web Applications
-            </span>
+              Transforming Ideas into Scalable, User-Friendly Digital Products
+            </span> */}
           </Text>
-          <Text css={{ lineHeight: "36px", textAlign: "center" }}>
-            I&apos;m a full-stack developer with a focus on front-end
-            development. I have a passion for building beautiful and
-            user-friendly web applications and mobile application that meet the
-            needs of my clients and their users.
+          <Text css={{ lineHeight: "22px", textAlign: "center" }}>
+            Transforming Ideas into Scalable, User-Friendly Digital Products
           </Text>
           <section
             css={{
-              marginTop: "100px",
+              marginTop: "80px",
               display: "flex",
               flexDirection: "column",
               gap: "16px",
@@ -83,30 +80,23 @@ export default function About() {
               About Me
             </Text>
             <Text css={{ lineHeight: "28px" }}>
-              Hi, I&apos;m Charisman Apriandi. I&apos;m a full-stack developer
-              with a focus on front-end development and mobile development. I
-              have over 3 years of experience in the industry, and I&apos;ve
-              worked on a variety of projects, from small websites to
-              large-scale web applications.
+              Hi, I&apos;m <b>Charisman Apriandi</b>, a full-stack developer with over {new Date().getFullYear() - 2020} {" "}
+              years of experience building web and mobile applications. I specialize in developing robust, scalable 
+              solutions—covering both frontend and backend development.
             </Text>
             <Text css={{ lineHeight: "28px" }}>
-              I&apos;m passionate about building beautiful and user-friendly web
-              that meet the needs of my clients and their users. I have a strong
-              understanding of front-end technologies such as HTML, CSS, and
-              JavaScript. I&apos;m also proficient in a variety of front-end
-              frameworks and libraries, such as React, and Vue.js.
+              I have a strong foundation in front-end technologies such as HTML, CSS, and JavaScript, and I&apos;m proficient 
+              in modern frameworks like React and Vue.js. On the backend, I work with Node.js, Python, and have experience 
+              building RESTful and GraphQL APIs, as well as working with relational and NoSQL databases like PostgreSQL and MongoDB.
             </Text>
             <Text css={{ lineHeight: "28px" }}>
-              In addition to my front-end skills, I also have experience with
-              back-end development. I&apos;m familiar with programming languages
-              such as Javascript and Python, and I&apos;ve worked with a variety
-              of databases and APIs.
+              My approach combines technical precision with a deep understanding of user experience, allowing me to build solutions 
+              that are not only functional but also intuitive and user-friendly. I’m highly motivated, adaptable, and always open 
+              to learning new technologies and tackling new challenges.
             </Text>
             <Text css={{ lineHeight: "28px" }}>
-              I&apos;m a highly motivated and results-oriented individual.
-              I&apos;m always eager to learn new things and take on new
-              challenges. I&apos;m also a team player and I&apos;m always
-              willing to go the extra mile to help my team succeed.
+              I thrive in collaborative environments, but I’m also confident taking ownership of tasks and delivering high-quality 
+              results independently.
             </Text>
           </section>
           <section css={{ marginTop: "80px", marginBottom: "80px" }}>
@@ -119,9 +109,12 @@ export default function About() {
               })}
             >
               <Text css={{ lineHeight: "28px" }}>
-                If you&apos;re looking for a full-stack developer with a focus
-                on front-end development, I&apos;d love to hear from you. Please
-                contact me at{" "}
+                If you&apos;re looking for a dependable full-stack developer who can handle both frontend and backend with 
+                confidence, I&apos;d love to connect. With a solid foundation in building end-to-end solutions, I&apos;m ready to 
+                support your project from architecture to deployment.
+              </Text>
+              <Text css={{ lineHeight: "28px", marginTop: 16 }}>
+                Feel free to reach out to me at{" "}
                 <span
                   css={({ palette }) => ({ color: palette.text.highlight })}
                 >
@@ -129,13 +122,13 @@ export default function About() {
                     charismanapriandi@gmail.com
                   </Link>{" "}
                 </span>
-                or{" "}
+                or{" "} 
                 <span
                   css={({ palette }) => ({ color: palette.text.highlight })}
                 >
                   <Link href="tel:+6287886775740">+62 878 86775740</Link>{" "}
                 </span>{" "}
-                to discuss your project needs.
+                to discuss how I can contribute to your team or project.
               </Text>
               <div css={{ marginTop: "20px" }}>
                 {/* <Link css={{width: 'fit-content'}} href='https://drive.google.com/file/d/1qnyWVCA7qJN9MdJuCjwvGznlNcXutwLZ/view?usp=sharing' passHref> */}

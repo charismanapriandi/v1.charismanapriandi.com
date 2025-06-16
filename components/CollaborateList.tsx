@@ -7,8 +7,8 @@ export default function CollaborateList() {
   
   const list = [
     {
-      title: 'Mobile App',
-      desc: 'An effective solution to provide accessibility and a better user experience.',
+      title: 'Mobile app',
+      desc: 'A powerful solution to enhance accessibility and deliver a seamless user experience.',
       icon: (
         <svg width="50" height="50" viewBox="0 0 55 50" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path 
@@ -23,7 +23,7 @@ export default function CollaborateList() {
     },
     {
       title: 'Website',
-      desc: 'Enables users to access your information and services from anywhere.',
+      desc: 'Allow users to access your services and information from anywhere anywhere, at any time',
       icon: (
         <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path 
@@ -38,7 +38,7 @@ export default function CollaborateList() {
     },
     {
       title: 'UI & UX',
-      desc: 'Designing interfaces that are intuitive, efficient, and enjoyable to use.',
+      desc: 'Crafting intuitive, efficient, and engaging user interfaces and experiences',
       icon: (
         <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path 
